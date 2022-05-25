@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*BAGIAN HEADER */
+header h1{
+    font: bold 40px sans-serif;
+    text-shadow: 1px 1px 1px white;
+}
+header {
+    padding: 50px;
+    padding-right: 40%;
+    background-image: linear-gradient(hsl(10, 50%, 54%),hsl(170, 30%, 54%));
+}
+header h4 {
+    font:  17px sans-serif;
+    text-shadow: 1px 1px 1px white;
+}
+.header {
+    text-align: right;
+    padding-top: 20px;
+
+}
+/*BAGIAN NAVIGASI*/
+nav {
+    background-color: #007D73 ;
+    padding: 20PX;
+}
+
+nav ul li{
+    padding-left: 15px;
+    display: inline;
+}
+nav a{
+    color: #ff6d00;
+    text-decoration: none;
+    font: 15px sans-serif;
+}
+
+nav a:hover{
+    font: bold 15px sans-serif;
+    color: #FF5901;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+main article section {
+    box-shadow: 0 4px 5px #14795E, 0 -1px 3px gray ;
+    padding: 30px 10px 10px 10px;
+    margin: 10px;
+    width: 60%;
+    max-width: 60%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+main article aside {
+    padding: 30px 10px 10px 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+    box-shadow: 0 4px 5px #14795E, 0 -1px 3px gray ;
+}
+
+main aside {
+    width: 30%;
+    float: right;
+}
+main article h3{
+   color: cadetblue;
+}
+tr th {
+    text-align: left;
+    padding: 10px 0;
+}
+
+section img {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+section img:hover{
+    /*border-radius: 50px;*/
+    margin: -20px;
+    padding: -20px;
+    float: left;
+    width: 940px;
+    position: relative;
+}
+
+.artikel-paragraf{
+    text-indent: 45px;
+    font: 15px/25px sans-serif;
+    text-align: justify;
+}
+
+.artikel{
+    padding:10px -0;
+}
+
+.hijau {
+    font: bold 25px/25px Arial sans-serif;
+    color: #007D73;
+}
+
+tr td {
+    font: 20px/25px Arial sans-serif;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #007D73 ;
+    padding: 20PX;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ff6d00;
+}
+
+.clear {
+clear: both;
+}
